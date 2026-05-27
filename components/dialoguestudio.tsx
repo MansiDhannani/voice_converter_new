@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 
+// Backend API URL - configured via Vercel environment variables
 const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 const NGROK_HEADER = { "ngrok-skip-browser-warning": "true" };
 

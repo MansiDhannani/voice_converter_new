@@ -157,11 +157,11 @@ export default function Dashboard() {
         <div style={styles.card}>
           <h2 style={styles.cardTitle}>Dialogue Studio</h2>
           <p style={styles.hint}>
-            Write a script and render a full multi-speaker conversation in cloned voices. Download as WAV.
+            Upload voice samples for 2–3 speakers, write a script, and render a full multi-language
+            conversation in cloned voices. No saved profile needed — just upload WAV/MP3 files directly.
           </p>
           <button
-            style={{ ...styles.btn, opacity: hasProfile ? 1 : 0.5, background: "#7c3aed" }}
-            disabled={!hasProfile}
+            style={{ ...styles.btn, background: "#7c3aed" }}
             onClick={() => router.push("/dialogue")}
           >
             🎬 Open Dialogue Studio
